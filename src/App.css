@@ -1,0 +1,163 @@
+.app-container {
+    display: flex;
+    width: 100%;
+  }
+
+/* From profile page: */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(24, 95, 48, 0.719);
+    width: 30%;
+    height: 800px;
+    padding: 20px;
+    text-align: center;
+    border-top-right-radius: 1.2%;
+    border-bottom-right-radius: 1.2%;
+   
+  }
+  
+  .profile-container {
+    width: 250px;
+    height: 250px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    border-radius: 50%;
+  }
+  
+  
+  .profile-container:hover {
+    transform: scale(1.1);
+  }
+  
+  .profile-img {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(28, 40, 75);
+    font-size: 22px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  a:hover {
+    color: rgb(29, 29, 29);
+  }
+
+.line {
+  border: 1px solid rgb(29, 29, 29);
+  margin: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: rgb(28, 40, 75);
+  font-size: 35px;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  color: rgb(29, 29, 29);
+  transform: scale(1.2);
+}
+
+/* from main page: */
+
+.mainbar-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(233, 233, 233, 0.719);
+    width: 70%;
+    height: 190vh;
+    padding: 20px;
+    border-top-left-radius: 1.2%;
+    border-bottom-left-radius: 1.2%;
+    margin-left: 20px;
+    
+}
+
+.main-title {
+    margin-left: 10px;
+    color: rgb(24, 95, 48);
+}
+
+.main-line {
+    border: 1px solid rgba(59, 59, 59, 0.363);
+    margin: 10px;
+    margin-top: 2px;
+  }
+
+  .main-par {
+    margin: 10px;
+    margin-bottom: 20px;
+  }
+
+  .main-subtitle {
+    margin: 0;
+    margin-left: 10px;
+    color: rgb(28, 40, 75);
+  }
+
+  .work-duration {
+    color: rgba(59, 59, 59, 0.363);
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .skill-container {
+    margin-left: 10px;
+  }
+  
+  .skill {
+    display: inline-block;
+    background-color: rgba(24, 95, 48, 0.719);
+    min-width: 40px;
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 18px;
+  }
+  
+  li::before {
+    content: "•";
+    color: rgba(24, 95, 48, 0.719);
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1em;
+  }
+  
